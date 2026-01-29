@@ -8,9 +8,10 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Link from "next/link";
+import { ModeToggle } from "../thems/mode-toggle";
 
 export default function Header() {
-  return (
+  return ( 
     <header className="bg-blue-500 border-b">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
@@ -57,6 +58,12 @@ export default function Header() {
                 </Button>
               </div>
             </div>
+           
+
+           {/*dark-light mode toggle button */}
+          <div>
+            <ModeToggle />
+          </div>
 
             <div className="block md:hidden">
               <Sheet>
