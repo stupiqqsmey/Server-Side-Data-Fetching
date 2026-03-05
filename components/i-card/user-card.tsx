@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { UserResponse } from "@/lib/type/type"
+import { UserResponse } from "@/lib/types/type"
 
 export function UserCard({ user }: { user: UserResponse }) {
   return (

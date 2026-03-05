@@ -1,7 +1,7 @@
 import { UserCard } from "@/components/i-card/user-card";
-import { UserResponse } from "@/lib/type/type";
+import { UserResponse } from "@/lib/types/type";
 
-//  create function to get data from api
+///  create function to get data from api ///
 const BASE_URL = process.env.NEXT_PUBLIC_API;
 
 export default async function UserPage() {
